@@ -1,0 +1,66 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+}
+.content {
+  position: relative;
+}
+.snackbar {
+  background-color: #272838;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  height: 3rem;
+  width: 25rem;
+  position: fixed;
+  bottom: 0;
+  margin: 10px auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.snackbar__stacked {
+  flex-direction: column;
+  height: 5rem;
+  display: flex;
+  font-size: 13px;
+  padding: 10px 1rem;
+}
+
+.snackbar__text {
+  padding: 10px;
+}
+
+.baseline {
+  left: 0;
+  right: 0;
+}
+
+.leading {
+  margin-right: auto;
+}
+
+.snackbar__items {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  gap: 2rem;
+}
+
+.retry {
+  color: #347fc4;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 5%;
+}
+.cancel {
+  padding: 10px 14px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #3f3f3d;
+}
